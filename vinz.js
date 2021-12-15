@@ -1285,7 +1285,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
       let _uptime = process.uptime() * 1000;
       let uptime = clockString(_uptime);
 
-await KonX.setStatus(`Mode Bot By Yt PikonXCode Aktif Selama ${uptime}`).catch((_) => _);
+await KonX.setStatus(`Mode Bot By DatSkuyy Aktif Selama ${uptime}`).catch((_) => _);
       settingstatus = new Date() * 1;
     }
     if (!mek.key.fromMe && banChats === true) return;
